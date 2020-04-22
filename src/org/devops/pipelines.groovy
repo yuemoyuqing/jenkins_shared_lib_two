@@ -1,4 +1,4 @@
-#!groovy
+package org.devops
 
 def PipelineCall(String type, Map map) {
     if (type == 'maven') {
